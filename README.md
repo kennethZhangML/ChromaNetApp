@@ -28,3 +28,5 @@ Dropout layer with a dropout rate of 0.2
 Conv2d layer with input channel of 16, output channel of 2, kernel size of 3, stride of 1, and padding of 1
 
 The model takes an input image with a single channel, applies several convolutional and max-pooling layers to encode it into a compressed representation, and then applies several transposed convolutional layers to reconstruct the original image. Finally, the model passes the reconstructed image through a converging convolutional layer to reduce the number of channels to 2. The output of the model is the compressed representation of the input image.
+
+![AE Diagram](colorizationAE.png)
