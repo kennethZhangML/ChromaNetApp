@@ -1,4 +1,5 @@
 # ChromaNetApp
+# ** STILL UNDER CONSTRUCTION ** 
 Colorize any grayscale image from the 1800s to 1900s using AEs in PyTorch
 
 # What is ChromaNet?
