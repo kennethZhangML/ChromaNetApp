@@ -15,7 +15,6 @@ warnings.filterwarnings('ignore')
 
 
 st.title("Colorization AE Tool")
-st.image("colorizationAE.png")
 
 AEmodel = ColorizationAutoencoder()
 AEmodel.load_state_dict(torch.load('landscapeAE.pt'))
